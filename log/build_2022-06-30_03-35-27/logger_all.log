@@ -1,0 +1,300 @@
+[0.313s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.313s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f6a45d86fa0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f6a45d86fa0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f6a45a2ee80>)
+[0.358s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.359s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.359s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.359s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.359s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.359s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.359s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/hiroto/ros2_ws/src/education2'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(door2_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(door2_pubsub) by extension 'ignore'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(door2_pubsub) by extension 'ignore_ament_install'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(door2_pubsub) by extensions ['colcon_pkg']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(door2_pubsub) by extension 'colcon_pkg'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(door2_pubsub) by extensions ['colcon_meta']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(door2_pubsub) by extension 'colcon_meta'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(door2_pubsub) by extensions ['ros']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(door2_pubsub) by extension 'ros'
+[0.374s] DEBUG:colcon.colcon_core.package_identification:Package 'door2_pubsub' with type 'ros.ament_cmake' and name 'door2_pubsub'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(door_open2) by extensions ['ignore', 'ignore_ament_install']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(door_open2) by extension 'ignore'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(door_open2) by extension 'ignore_ament_install'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(door_open2) by extensions ['colcon_pkg']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(door_open2) by extension 'colcon_pkg'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(door_open2) by extensions ['colcon_meta']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(door_open2) by extension 'colcon_meta'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(door_open2) by extensions ['ros']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(door_open2) by extension 'ros'
+[0.374s] DEBUG:colcon.colcon_core.package_identification:Package 'door_open2' with type 'ros.ament_python' and name 'door_open2'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(pubsub) by extensions ['ignore', 'ignore_ament_install']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(pubsub) by extension 'ignore'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(pubsub) by extension 'ignore_ament_install'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(pubsub) by extensions ['colcon_pkg']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(pubsub) by extension 'colcon_pkg'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(pubsub) by extensions ['colcon_meta']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(pubsub) by extension 'colcon_meta'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(pubsub) by extensions ['ros']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(pubsub) by extension 'ros'
+[0.375s] DEBUG:colcon.colcon_core.package_identification:Package 'pubsub' with type 'ros.ament_cmake' and name 'pubsub'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(py_door2) by extensions ['ignore', 'ignore_ament_install']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(py_door2) by extension 'ignore'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(py_door2) by extension 'ignore_ament_install'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(py_door2) by extensions ['colcon_pkg']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(py_door2) by extension 'colcon_pkg'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(py_door2) by extensions ['colcon_meta']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(py_door2) by extension 'colcon_meta'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(py_door2) by extensions ['ros']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(py_door2) by extension 'ros'
+[0.376s] DEBUG:colcon.colcon_core.package_identification:Package 'py_door2' with type 'ros.ament_python' and name 'py_door2'
+[0.376s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.376s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.376s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.376s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.376s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.396s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.396s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.398s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/hiroto/ros2_ws/install
+[0.399s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 262 installed packages in /opt/ros/foxy
+[0.401s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /opt/ros/noetic
+[0.401s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'door2_pubsub' build argument 'cmake_args' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'door2_pubsub' build argument 'cmake_target' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'door2_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'door2_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'door2_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'door2_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'door2_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'door2_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'door2_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.458s] DEBUG:colcon.colcon_core.verb:Building package 'door2_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hiroto/ros2_ws/src/education2/build/door2_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hiroto/ros2_ws/src/education2/install/door2_pubsub', 'merge_install': False, 'path': '/home/hiroto/ros2_ws/src/education2/door2_pubsub', 'symlink_install': False, 'test_result_base': None}
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'door_open2' build argument 'cmake_args' from command line to 'None'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'door_open2' build argument 'cmake_target' from command line to 'None'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'door_open2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'door_open2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'door_open2' build argument 'cmake_clean_first' from command line to 'False'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'door_open2' build argument 'cmake_force_configure' from command line to 'False'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'door_open2' build argument 'ament_cmake_args' from command line to 'None'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'door_open2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'door_open2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.459s] DEBUG:colcon.colcon_core.verb:Building package 'door_open2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hiroto/ros2_ws/src/education2/build/door_open2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hiroto/ros2_ws/src/education2/install/door_open2', 'merge_install': False, 'path': '/home/hiroto/ros2_ws/src/education2/door_open2', 'symlink_install': False, 'test_result_base': None}
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'pubsub' build argument 'cmake_args' from command line to 'None'
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'pubsub' build argument 'cmake_target' from command line to 'None'
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.460s] DEBUG:colcon.colcon_core.verb:Building package 'pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hiroto/ros2_ws/src/education2/build/pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hiroto/ros2_ws/src/education2/install/pubsub', 'merge_install': False, 'path': '/home/hiroto/ros2_ws/src/education2/pubsub', 'symlink_install': False, 'test_result_base': None}
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'py_door2' build argument 'cmake_args' from command line to 'None'
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'py_door2' build argument 'cmake_target' from command line to 'None'
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'py_door2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'py_door2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'py_door2' build argument 'cmake_clean_first' from command line to 'False'
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'py_door2' build argument 'cmake_force_configure' from command line to 'False'
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'py_door2' build argument 'ament_cmake_args' from command line to 'None'
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'py_door2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.461s] Level 5:colcon.colcon_core.verb:set package 'py_door2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.461s] DEBUG:colcon.colcon_core.verb:Building package 'py_door2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hiroto/ros2_ws/src/education2/build/py_door2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hiroto/ros2_ws/src/education2/install/py_door2', 'merge_install': False, 'path': '/home/hiroto/ros2_ws/src/education2/py_door2', 'symlink_install': False, 'test_result_base': None}
+[0.461s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.463s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.464s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hiroto/ros2_ws/src/education2/door2_pubsub' with build type 'ament_cmake'
+[0.464s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hiroto/ros2_ws/src/education2/door2_pubsub'
+[0.467s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.467s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.467s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.470s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/hiroto/@home_ws/devel'
+[0.472s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/hiroto/ros2_ws/src/education2/door_open2' with build type 'ament_python'
+[0.473s] Level 1:colcon.colcon_core.shell:create_environment_hook('door_open2', 'ament_prefix_path')
+[0.474s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hiroto/ros2_ws/src/education2/install/door_open2/share/door_open2/hook/ament_prefix_path.ps1'
+[0.475s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hiroto/ros2_ws/src/education2/install/door_open2/share/door_open2/hook/ament_prefix_path.dsv'
+[0.475s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hiroto/ros2_ws/src/education2/install/door_open2/share/door_open2/hook/ament_prefix_path.sh'
+[0.476s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.476s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.478s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/hiroto/@home_ws/devel'
+[0.481s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hiroto/ros2_ws/src/education2/pubsub' with build type 'ament_cmake'
+[0.481s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hiroto/ros2_ws/src/education2/pubsub'
+[0.482s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.482s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.485s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/hiroto/@home_ws/devel'
+[0.487s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/hiroto/ros2_ws/src/education2/py_door2' with build type 'ament_python'
+[0.488s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_door2', 'ament_prefix_path')
+[0.489s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hiroto/ros2_ws/src/education2/install/py_door2/share/py_door2/hook/ament_prefix_path.ps1'
+[0.489s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hiroto/ros2_ws/src/education2/install/py_door2/share/py_door2/hook/ament_prefix_path.dsv'
+[0.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hiroto/ros2_ws/src/education2/install/py_door2/share/py_door2/hook/ament_prefix_path.sh'
+[0.490s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.490s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.493s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/hiroto/@home_ws/devel'
+[0.499s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hiroto/ros2_ws/src/education2/build/door2_pubsub': CMAKE_PREFIX_PATH=/home/hiroto/ros2_ws/install/turtlesim:/home/hiroto/ros2_ws/install/test_msg:/home/hiroto/ros2_ws/install/pubsub_msg:/home/hiroto/ros2_ws/install/pubsub:/home/hiroto/ros2_ws/install/door2_pubsub:/home/hiroto/ros2_ws/install/py_door2:/home/hiroto/ros2_ws/install/door_open2:/opt/ros/foxy:/home/hiroto/@home_ws/devel:/opt/ros/noetic PS1=\e[1;32m\]\u@\h\e[1;33m\]<foxy>\e[m\]:\e[1;34m\]\w\e[m\]$ /usr/local/bin/cmake /home/hiroto/ros2_ws/src/education2/door2_pubsub -DCMAKE_INSTALL_PREFIX=/home/hiroto/ros2_ws/src/education2/install/door2_pubsub
+[1.376s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/hiroto/ros2_ws/src/education2/door_open2'
+[1.378s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.378s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.383s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/hiroto/@home_ws/devel'
+[1.392s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hiroto/ros2_ws/src/education2/build/pubsub': CMAKE_PREFIX_PATH=/home/hiroto/ros2_ws/install/turtlesim:/home/hiroto/ros2_ws/install/test_msg:/home/hiroto/ros2_ws/install/pubsub_msg:/home/hiroto/ros2_ws/install/pubsub:/home/hiroto/ros2_ws/install/door2_pubsub:/home/hiroto/ros2_ws/install/py_door2:/home/hiroto/ros2_ws/install/door_open2:/opt/ros/foxy:/home/hiroto/@home_ws/devel:/opt/ros/noetic PS1=\e[1;32m\]\u@\h\e[1;33m\]<foxy>\e[m\]:\e[1;34m\]\w\e[m\]$ /usr/local/bin/cmake /home/hiroto/ros2_ws/src/education2/pubsub -DCMAKE_INSTALL_PREFIX=/home/hiroto/ros2_ws/src/education2/install/pubsub
+[2.502s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/hiroto/ros2_ws/src/education2/py_door2'
+[2.504s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.504s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.509s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/hiroto/@home_ws/devel'
+[4.980s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hiroto/ros2_ws/src/education2/door_open2': PS1=\e[1;32m\]\u@\h\e[1;33m\]<foxy>\e[m\]:\e[1;34m\]\w\e[m\]$ PYTHONPATH=/home/hiroto/ros2_ws/src/education2/install/door_open2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/door_open2 build --build-base /home/hiroto/ros2_ws/src/education2/build/door_open2/build install --prefix /home/hiroto/ros2_ws/src/education2/install/door_open2 --record /home/hiroto/ros2_ws/src/education2/build/door_open2/install.log --single-version-externally-managed
+[7.261s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hiroto/ros2_ws/src/education2/build/pubsub' returned '0': CMAKE_PREFIX_PATH=/home/hiroto/ros2_ws/install/turtlesim:/home/hiroto/ros2_ws/install/test_msg:/home/hiroto/ros2_ws/install/pubsub_msg:/home/hiroto/ros2_ws/install/pubsub:/home/hiroto/ros2_ws/install/door2_pubsub:/home/hiroto/ros2_ws/install/py_door2:/home/hiroto/ros2_ws/install/door_open2:/opt/ros/foxy:/home/hiroto/@home_ws/devel:/opt/ros/noetic PS1=\e[1;32m\]\u@\h\e[1;33m\]<foxy>\e[m\]:\e[1;34m\]\w\e[m\]$ /usr/local/bin/cmake /home/hiroto/ros2_ws/src/education2/pubsub -DCMAKE_INSTALL_PREFIX=/home/hiroto/ros2_ws/src/education2/install/pubsub
+[7.266s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hiroto/ros2_ws/src/education2/build/pubsub': CMAKE_PREFIX_PATH=/home/hiroto/ros2_ws/install/turtlesim:/home/hiroto/ros2_ws/install/test_msg:/home/hiroto/ros2_ws/install/pubsub_msg:/home/hiroto/ros2_ws/install/pubsub:/home/hiroto/ros2_ws/install/door2_pubsub:/home/hiroto/ros2_ws/install/py_door2:/home/hiroto/ros2_ws/install/door_open2:/opt/ros/foxy:/home/hiroto/@home_ws/devel:/opt/ros/noetic PS1=\e[1;32m\]\u@\h\e[1;33m\]<foxy>\e[m\]:\e[1;34m\]\w\e[m\]$ /usr/local/bin/cmake --build /home/hiroto/ros2_ws/src/education2/build/pubsub -- -j8 -l8
+[7.989s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hiroto/ros2_ws/src/education2/py_door2': PS1=\e[1;32m\]\u@\h\e[1;33m\]<foxy>\e[m\]:\e[1;34m\]\w\e[m\]$ PYTHONPATH=/home/hiroto/ros2_ws/src/education2/install/py_door2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/py_door2 build --build-base /home/hiroto/ros2_ws/src/education2/build/py_door2/build install --prefix /home/hiroto/ros2_ws/src/education2/install/py_door2 --record /home/hiroto/ros2_ws/src/education2/build/py_door2/install.log --single-version-externally-managed
+[8.233s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hiroto/ros2_ws/src/education2/door_open2' returned '0': PS1=\e[1;32m\]\u@\h\e[1;33m\]<foxy>\e[m\]:\e[1;34m\]\w\e[m\]$ PYTHONPATH=/home/hiroto/ros2_ws/src/education2/install/door_open2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/door_open2 build --build-base /home/hiroto/ros2_ws/src/education2/build/door_open2/build install --prefix /home/hiroto/ros2_ws/src/education2/install/door_open2 --record /home/hiroto/ros2_ws/src/education2/build/door_open2/install.log --single-version-externally-managed
+[8.241s] Level 1:colcon.colcon_core.environment:checking '/home/hiroto/ros2_ws/src/education2/install/door_open2' for CMake module files
+[8.241s] Level 1:colcon.colcon_core.environment:checking '/home/hiroto/ros2_ws/src/education2/install/door_open2' for CMake config files
+[8.243s] Level 1:colcon.colcon_core.environment:checking '/home/hiroto/ros2_ws/src/education2/install/door_open2/lib'
+[8.243s] Level 1:colcon.colcon_core.environment:checking '/home/hiroto/ros2_ws/src/education2/install/door_open2/bin'
+[8.243s] Level 1:colcon.colcon_core.environment:checking '/home/hiroto/ros2_ws/src/education2/install/door_open2/lib/pkgconfig/door_open2.pc'
+[8.244s] Level 1:colcon.colcon_core.environment:checking '/home/hiroto/ros2_ws/src/education2/install/door_open2/lib/python3.8/site-packages'
+[8.244s] Level 1:colcon.colcon_core.shell:create_environment_hook('door_open2', 'pythonpath')
+[8.246s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hiroto/ros2_ws/src/education2/install/door_open2/share/door_open2/hook/pythonpath.ps1'
+[8.246s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hiroto/ros2_ws/src/education2/install/door_open2/share/door_open2/hook/pythonpath.dsv'
+[8.247s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hiroto/ros2_ws/src/education2/install/door_open2/share/door_open2/hook/pythonpath.sh'
+[8.248s] Level 1:colcon.colcon_core.environment:checking '/home/hiroto/ros2_ws/src/education2/install/door_open2/bin'
+[8.248s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(door_open2)
+[8.250s] INFO:colcon.colcon_core.shell:Creating package script '/home/hiroto/ros2_ws/src/education2/install/door_open2/share/door_open2/package.ps1'
+[8.252s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hiroto/ros2_ws/src/education2/install/door_open2/share/door_open2/package.dsv'
+[8.253s] INFO:colcon.colcon_core.shell:Creating package script '/home/hiroto/ros2_ws/src/education2/install/door_open2/share/door_open2/package.sh'
+[8.254s] INFO:colcon.colcon_core.shell:Creating package script '/home/hiroto/ros2_ws/src/education2/install/door_open2/share/door_open2/package.bash'
+[8.256s] INFO:colcon.colcon_core.shell:Creating package script '/home/hiroto/ros2_ws/src/education2/install/door_open2/share/door_open2/package.zsh'
+[8.257s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hiroto/ros2_ws/src/education2/install/door_open2/share/colcon-core/packages/door_open2)
+[8.875s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hiroto/ros2_ws/src/education2/build/door2_pubsub' returned '0': CMAKE_PREFIX_PATH=/home/hiroto/ros2_ws/install/turtlesim:/home/hiroto/ros2_ws/install/test_msg:/home/hiroto/ros2_ws/install/pubsub_msg:/home/hiroto/ros2_ws/install/pubsub:/home/hiroto/ros2_ws/install/door2_pubsub:/home/hiroto/ros2_ws/install/py_door2:/home/hiroto/ros2_ws/install/door_open2:/opt/ros/foxy:/home/hiroto/@home_ws/devel:/opt/ros/noetic PS1=\e[1;32m\]\u@\h\e[1;33m\]<foxy>\e[m\]:\e[1;34m\]\w\e[m\]$ /usr/local/bin/cmake /home/hiroto/ros2_ws/src/education2/door2_pubsub -DCMAKE_INSTALL_PREFIX=/home/hiroto/ros2_ws/src/education2/install/door2_pubsub
+[8.876s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hiroto/ros2_ws/src/education2/build/door2_pubsub': CMAKE_PREFIX_PATH=/home/hiroto/ros2_ws/install/turtlesim:/home/hiroto/ros2_ws/install/test_msg:/home/hiroto/ros2_ws/install/pubsub_msg:/home/hiroto/ros2_ws/install/pubsub:/home/hiroto/ros2_ws/install/door2_pubsub:/home/hiroto/ros2_ws/install/py_door2:/home/hiroto/ros2_ws/install/door_open2:/opt/ros/foxy:/home/hiroto/@home_ws/devel:/opt/ros/noetic PS1=\e[1;32m\]\u@\h\e[1;33m\]<foxy>\e[m\]:\e[1;34m\]\w\e[m\]$ /usr/local/bin/cmake --build /home/hiroto/ros2_ws/src/education2/build/door2_pubsub -- -j8 -l8
+[8.922s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hiroto/ros2_ws/src/education2/build/door2_pubsub' returned '0': CMAKE_PREFIX_PATH=/home/hiroto/ros2_ws/install/turtlesim:/home/hiroto/ros2_ws/install/test_msg:/home/hiroto/ros2_ws/install/pubsub_msg:/home/hiroto/ros2_ws/install/pubsub:/home/hiroto/ros2_ws/install/door2_pubsub:/home/hiroto/ros2_ws/install/py_door2:/home/hiroto/ros2_ws/install/door_open2:/opt/ros/foxy:/home/hiroto/@home_ws/devel:/opt/ros/noetic PS1=\e[1;32m\]\u@\h\e[1;33m\]<foxy>\e[m\]:\e[1;34m\]\w\e[m\]$ /usr/local/bin/cmake --build /home/hiroto/ros2_ws/src/education2/build/door2_pubsub -- -j8 -l8
+[8.963s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hiroto/ros2_ws/src/education2/build/door2_pubsub': CMAKE_PREFIX_PATH=/home/hiroto/ros2_ws/install/turtlesim:/home/hiroto/ros2_ws/install/test_msg:/home/hiroto/ros2_ws/install/pubsub_msg:/home/hiroto/ros2_ws/install/pubsub:/home/hiroto/ros2_ws/install/door2_pubsub:/home/hiroto/ros2_ws/install/py_door2:/home/hiroto/ros2_ws/install/door_open2:/opt/ros/foxy:/home/hiroto/@home_ws/devel:/opt/ros/noetic PS1=\e[1;32m\]\u@\h\e[1;33m\]<foxy>\e[m\]:\e[1;34m\]\w\e[m\]$ /usr/local/bin/cmake --build /home/hiroto/ros2_ws/src/education2/build/door2_pubsub --target install -- -j8 -l8
+[9.020s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(door2_pubsub)
+[9.022s] Level 1:colcon.colcon_core.environment:checking '/home/hiroto/ros2_ws/src/education2/install/door2_pubsub' for CMake module files
+[9.024s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hiroto/ros2_ws/src/education2/build/door2_pubsub' returned '0': CMAKE_PREFIX_PATH=/home/hiroto/ros2_ws/install/turtlesim:/home/hiroto/ros2_ws/install/test_msg:/home/hiroto/ros2_ws/install/pubsub_msg:/home/hiroto/ros2_ws/install/pubsub:/home/hiroto/ros2_ws/install/door2_pubsub:/home/hiroto/ros2_ws/install/py_door2:/home/hiroto/ros2_ws/install/door_open2:/opt/ros/foxy:/home/hiroto/@home_ws/devel:/opt/ros/noetic PS1=\e[1;32m\]\u@\h\e[1;33m\]<foxy>\e[m\]:\e[1;34m\]\w\e[m\]$ /usr/local/bin/cmake --build /home/hiroto/ros2_ws/src/education2/build/door2_pubsub --target install -- -j8 -l8
+[9.025s] Level 1:colcon.colcon_core.environment:checking '/home/hiroto/ros2_ws/src/education2/install/door2_pubsub' for CMake config files
+[9.025s] Level 1:colcon.colcon_core.shell:create_environment_hook('door2_pubsub', 'cmake_prefix_path')
+[9.026s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hiroto/ros2_ws/src/education2/install/door2_pubsub/share/door2_pubsub/hook/cmake_prefix_path.ps1'
+[9.027s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hiroto/ros2_ws/src/education2/install/door2_pubsub/share/door2_pubsub/hook/cmake_prefix_path.dsv'
+[9.028s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hiroto/ros2_ws/src/education2/install/door2_pubsub/share/door2_pubsub/hook/cmake_prefix_path.sh'
+[9.029s] Level 1:colcon.colcon_core.environment:checking '/home/hiroto/ros2_ws/src/education2/install/door2_pubsub/bin'
+[9.029s] Level 1:colcon.colcon_core.environment:checking '/home/hiroto/ros2_ws/src/education2/install/door2_pubsub/lib/pkgconfig/door2_pubsub.pc'
+[9.029s] Level 1:colcon.colcon_core.environment:checking '/home/hiroto/ros2_ws/src/education2/install/door2_pubsub/lib/python3.8/site-packages'
+[9.030s] Level 1:colcon.colcon_core.environment:checking '/home/hiroto/ros2_ws/src/education2/install/door2_pubsub/bin'
+[9.031s] INFO:colcon.colcon_core.shell:Creating package script '/home/hiroto/ros2_ws/src/education2/install/door2_pubsub/share/door2_pubsub/package.ps1'
+[9.032s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hiroto/ros2_ws/src/education2/install/door2_pubsub/share/door2_pubsub/package.dsv'
+[9.033s] INFO:colcon.colcon_core.shell:Creating package script '/home/hiroto/ros2_ws/src/education2/install/door2_pubsub/share/door2_pubsub/package.sh'
+[9.034s] INFO:colcon.colcon_core.shell:Creating package script '/home/hiroto/ros2_ws/src/education2/install/door2_pubsub/share/door2_pubsub/package.bash'
+[9.034s] INFO:colcon.colcon_core.shell:Creating package script '/home/hiroto/ros2_ws/src/education2/install/door2_pubsub/share/door2_pubsub/package.zsh'
+[9.034s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hiroto/ros2_ws/src/education2/install/door2_pubsub/share/colcon-core/packages/door2_pubsub)
+[9.155s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(door2_pubsub)
+[9.157s] Level 1:colcon.colcon_core.environment:checking '/home/hiroto/ros2_ws/src/education2/install/door2_pubsub' for CMake module files
+[9.159s] Level 1:colcon.colcon_core.environment:checking '/home/hiroto/ros2_ws/src/education2/install/door2_pubsub' for CMake config files
+[9.159s] Level 1:colcon.colcon_core.shell:create_environment_hook('door2_pubsub', 'cmake_prefix_path')
+[9.161s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hiroto/ros2_ws/src/education2/install/door2_pubsub/share/door2_pubsub/hook/cmake_prefix_path.ps1'
+[9.162s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hiroto/ros2_ws/src/education2/install/door2_pubsub/share/door2_pubsub/hook/cmake_prefix_path.dsv'
+[9.162s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hiroto/ros2_ws/src/education2/install/door2_pubsub/share/door2_pubsub/hook/cmake_prefix_path.sh'
+[9.163s] Level 1:colcon.colcon_core.environment:checking '/home/hiroto/ros2_ws/src/education2/install/door2_pubsub/bin'
+[9.163s] Level 1:colcon.colcon_core.environment:checking '/home/hiroto/ros2_ws/src/education2/install/door2_pubsub/lib/pkgconfig/door2_pubsub.pc'
+[9.164s] Level 1:colcon.colcon_core.environment:checking '/home/hiroto/ros2_ws/src/education2/install/door2_pubsub/lib/python3.8/site-packages'
+[9.164s] Level 1:colcon.colcon_core.environment:checking '/home/hiroto/ros2_ws/src/education2/install/door2_pubsub/bin'
+[9.166s] INFO:colcon.colcon_core.shell:Creating package script '/home/hiroto/ros2_ws/src/education2/install/door2_pubsub/share/door2_pubsub/package.ps1'
+[9.167s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hiroto/ros2_ws/src/education2/install/door2_pubsub/share/door2_pubsub/package.dsv'
+[9.167s] INFO:colcon.colcon_core.shell:Creating package script '/home/hiroto/ros2_ws/src/education2/install/door2_pubsub/share/door2_pubsub/package.sh'
+[9.168s] INFO:colcon.colcon_core.shell:Creating package script '/home/hiroto/ros2_ws/src/education2/install/door2_pubsub/share/door2_pubsub/package.bash'
+[9.169s] INFO:colcon.colcon_core.shell:Creating package script '/home/hiroto/ros2_ws/src/education2/install/door2_pubsub/share/door2_pubsub/package.zsh'
+[9.169s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hiroto/ros2_ws/src/education2/install/door2_pubsub/share/colcon-core/packages/door2_pubsub)
+[10.860s] Level 1:colcon.colcon_core.environment:checking '/home/hiroto/ros2_ws/src/education2/install/py_door2' for CMake module files
+[10.863s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hiroto/ros2_ws/src/education2/py_door2' returned '0': PS1=\e[1;32m\]\u@\h\e[1;33m\]<foxy>\e[m\]:\e[1;34m\]\w\e[m\]$ PYTHONPATH=/home/hiroto/ros2_ws/src/education2/install/py_door2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/py_door2 build --build-base /home/hiroto/ros2_ws/src/education2/build/py_door2/build install --prefix /home/hiroto/ros2_ws/src/education2/install/py_door2 --record /home/hiroto/ros2_ws/src/education2/build/py_door2/install.log --single-version-externally-managed
+[10.864s] Level 1:colcon.colcon_core.environment:checking '/home/hiroto/ros2_ws/src/education2/install/py_door2' for CMake config files
+[10.865s] Level 1:colcon.colcon_core.environment:checking '/home/hiroto/ros2_ws/src/education2/install/py_door2/lib'
+[10.865s] Level 1:colcon.colcon_core.environment:checking '/home/hiroto/ros2_ws/src/education2/install/py_door2/bin'
+[10.865s] Level 1:colcon.colcon_core.environment:checking '/home/hiroto/ros2_ws/src/education2/install/py_door2/lib/pkgconfig/py_door2.pc'
+[10.865s] Level 1:colcon.colcon_core.environment:checking '/home/hiroto/ros2_ws/src/education2/install/py_door2/lib/python3.8/site-packages'
+[10.865s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_door2', 'pythonpath')
+[10.867s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hiroto/ros2_ws/src/education2/install/py_door2/share/py_door2/hook/pythonpath.ps1'
+[10.868s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hiroto/ros2_ws/src/education2/install/py_door2/share/py_door2/hook/pythonpath.dsv'
+[10.869s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hiroto/ros2_ws/src/education2/install/py_door2/share/py_door2/hook/pythonpath.sh'
+[10.869s] Level 1:colcon.colcon_core.environment:checking '/home/hiroto/ros2_ws/src/education2/install/py_door2/bin'
+[10.869s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_door2)
+[10.871s] INFO:colcon.colcon_core.shell:Creating package script '/home/hiroto/ros2_ws/src/education2/install/py_door2/share/py_door2/package.ps1'
+[10.872s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hiroto/ros2_ws/src/education2/install/py_door2/share/py_door2/package.dsv'
+[10.872s] INFO:colcon.colcon_core.shell:Creating package script '/home/hiroto/ros2_ws/src/education2/install/py_door2/share/py_door2/package.sh'
+[10.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/hiroto/ros2_ws/src/education2/install/py_door2/share/py_door2/package.bash'
+[10.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/hiroto/ros2_ws/src/education2/install/py_door2/share/py_door2/package.zsh'
+[10.874s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hiroto/ros2_ws/src/education2/install/py_door2/share/colcon-core/packages/py_door2)
+[13.993s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hiroto/ros2_ws/src/education2/build/pubsub' returned '0': CMAKE_PREFIX_PATH=/home/hiroto/ros2_ws/install/turtlesim:/home/hiroto/ros2_ws/install/test_msg:/home/hiroto/ros2_ws/install/pubsub_msg:/home/hiroto/ros2_ws/install/pubsub:/home/hiroto/ros2_ws/install/door2_pubsub:/home/hiroto/ros2_ws/install/py_door2:/home/hiroto/ros2_ws/install/door_open2:/opt/ros/foxy:/home/hiroto/@home_ws/devel:/opt/ros/noetic PS1=\e[1;32m\]\u@\h\e[1;33m\]<foxy>\e[m\]:\e[1;34m\]\w\e[m\]$ /usr/local/bin/cmake --build /home/hiroto/ros2_ws/src/education2/build/pubsub -- -j8 -l8
+[14.023s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hiroto/ros2_ws/src/education2/build/pubsub': CMAKE_PREFIX_PATH=/home/hiroto/ros2_ws/install/turtlesim:/home/hiroto/ros2_ws/install/test_msg:/home/hiroto/ros2_ws/install/pubsub_msg:/home/hiroto/ros2_ws/install/pubsub:/home/hiroto/ros2_ws/install/door2_pubsub:/home/hiroto/ros2_ws/install/py_door2:/home/hiroto/ros2_ws/install/door_open2:/opt/ros/foxy:/home/hiroto/@home_ws/devel:/opt/ros/noetic PS1=\e[1;32m\]\u@\h\e[1;33m\]<foxy>\e[m\]:\e[1;34m\]\w\e[m\]$ /usr/local/bin/cmake --build /home/hiroto/ros2_ws/src/education2/build/pubsub --target install -- -j8 -l8
+[14.081s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pubsub)
+[14.087s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hiroto/ros2_ws/src/education2/build/pubsub' returned '0': CMAKE_PREFIX_PATH=/home/hiroto/ros2_ws/install/turtlesim:/home/hiroto/ros2_ws/install/test_msg:/home/hiroto/ros2_ws/install/pubsub_msg:/home/hiroto/ros2_ws/install/pubsub:/home/hiroto/ros2_ws/install/door2_pubsub:/home/hiroto/ros2_ws/install/py_door2:/home/hiroto/ros2_ws/install/door_open2:/opt/ros/foxy:/home/hiroto/@home_ws/devel:/opt/ros/noetic PS1=\e[1;32m\]\u@\h\e[1;33m\]<foxy>\e[m\]:\e[1;34m\]\w\e[m\]$ /usr/local/bin/cmake --build /home/hiroto/ros2_ws/src/education2/build/pubsub --target install -- -j8 -l8
+[14.091s] Level 1:colcon.colcon_core.environment:checking '/home/hiroto/ros2_ws/src/education2/install/pubsub' for CMake module files
+[14.095s] Level 1:colcon.colcon_core.environment:checking '/home/hiroto/ros2_ws/src/education2/install/pubsub' for CMake config files
+[14.096s] Level 1:colcon.colcon_core.shell:create_environment_hook('pubsub', 'cmake_prefix_path')
+[14.100s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hiroto/ros2_ws/src/education2/install/pubsub/share/pubsub/hook/cmake_prefix_path.ps1'
+[14.103s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hiroto/ros2_ws/src/education2/install/pubsub/share/pubsub/hook/cmake_prefix_path.dsv'
+[14.105s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hiroto/ros2_ws/src/education2/install/pubsub/share/pubsub/hook/cmake_prefix_path.sh'
+[14.108s] Level 1:colcon.colcon_core.environment:checking '/home/hiroto/ros2_ws/src/education2/install/pubsub/lib'
+[14.109s] Level 1:colcon.colcon_core.environment:checking '/home/hiroto/ros2_ws/src/education2/install/pubsub/bin'
+[14.109s] Level 1:colcon.colcon_core.environment:checking '/home/hiroto/ros2_ws/src/education2/install/pubsub/lib/pkgconfig/pubsub.pc'
+[14.111s] Level 1:colcon.colcon_core.environment:checking '/home/hiroto/ros2_ws/src/education2/install/pubsub/lib/python3.8/site-packages'
+[14.112s] Level 1:colcon.colcon_core.environment:checking '/home/hiroto/ros2_ws/src/education2/install/pubsub/bin'
+[14.116s] INFO:colcon.colcon_core.shell:Creating package script '/home/hiroto/ros2_ws/src/education2/install/pubsub/share/pubsub/package.ps1'
+[14.119s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hiroto/ros2_ws/src/education2/install/pubsub/share/pubsub/package.dsv'
+[14.121s] INFO:colcon.colcon_core.shell:Creating package script '/home/hiroto/ros2_ws/src/education2/install/pubsub/share/pubsub/package.sh'
+[14.123s] INFO:colcon.colcon_core.shell:Creating package script '/home/hiroto/ros2_ws/src/education2/install/pubsub/share/pubsub/package.bash'
+[14.124s] INFO:colcon.colcon_core.shell:Creating package script '/home/hiroto/ros2_ws/src/education2/install/pubsub/share/pubsub/package.zsh'
+[14.124s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hiroto/ros2_ws/src/education2/install/pubsub/share/colcon-core/packages/pubsub)
+[14.176s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pubsub)
+[14.177s] Level 1:colcon.colcon_core.environment:checking '/home/hiroto/ros2_ws/src/education2/install/pubsub' for CMake module files
+[14.177s] Level 1:colcon.colcon_core.environment:checking '/home/hiroto/ros2_ws/src/education2/install/pubsub' for CMake config files
+[14.177s] Level 1:colcon.colcon_core.shell:create_environment_hook('pubsub', 'cmake_prefix_path')
+[14.178s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hiroto/ros2_ws/src/education2/install/pubsub/share/pubsub/hook/cmake_prefix_path.ps1'
+[14.178s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hiroto/ros2_ws/src/education2/install/pubsub/share/pubsub/hook/cmake_prefix_path.dsv'
+[14.179s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hiroto/ros2_ws/src/education2/install/pubsub/share/pubsub/hook/cmake_prefix_path.sh'
+[14.179s] Level 1:colcon.colcon_core.environment:checking '/home/hiroto/ros2_ws/src/education2/install/pubsub/lib'
+[14.179s] Level 1:colcon.colcon_core.environment:checking '/home/hiroto/ros2_ws/src/education2/install/pubsub/bin'
+[14.180s] Level 1:colcon.colcon_core.environment:checking '/home/hiroto/ros2_ws/src/education2/install/pubsub/lib/pkgconfig/pubsub.pc'
+[14.180s] Level 1:colcon.colcon_core.environment:checking '/home/hiroto/ros2_ws/src/education2/install/pubsub/lib/python3.8/site-packages'
+[14.180s] Level 1:colcon.colcon_core.environment:checking '/home/hiroto/ros2_ws/src/education2/install/pubsub/bin'
+[14.180s] INFO:colcon.colcon_core.shell:Creating package script '/home/hiroto/ros2_ws/src/education2/install/pubsub/share/pubsub/package.ps1'
+[14.181s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hiroto/ros2_ws/src/education2/install/pubsub/share/pubsub/package.dsv'
+[14.181s] INFO:colcon.colcon_core.shell:Creating package script '/home/hiroto/ros2_ws/src/education2/install/pubsub/share/pubsub/package.sh'
+[14.181s] INFO:colcon.colcon_core.shell:Creating package script '/home/hiroto/ros2_ws/src/education2/install/pubsub/share/pubsub/package.bash'
+[14.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/hiroto/ros2_ws/src/education2/install/pubsub/share/pubsub/package.zsh'
+[14.182s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hiroto/ros2_ws/src/education2/install/pubsub/share/colcon-core/packages/pubsub)
+[14.182s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[14.182s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[14.182s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[14.183s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[14.188s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[14.188s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[14.188s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[14.263s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[14.264s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hiroto/ros2_ws/src/education2/install/local_setup.ps1'
+[14.265s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hiroto/ros2_ws/src/education2/install/_local_setup_util_ps1.py'
+[14.266s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hiroto/ros2_ws/src/education2/install/setup.ps1'
+[14.267s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hiroto/ros2_ws/src/education2/install/local_setup.sh'
+[14.268s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hiroto/ros2_ws/src/education2/install/_local_setup_util_sh.py'
+[14.268s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hiroto/ros2_ws/src/education2/install/setup.sh'
+[14.269s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hiroto/ros2_ws/src/education2/install/local_setup.bash'
+[14.270s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hiroto/ros2_ws/src/education2/install/setup.bash'
+[14.271s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hiroto/ros2_ws/src/education2/install/local_setup.zsh'
+[14.272s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hiroto/ros2_ws/src/education2/install/setup.zsh'

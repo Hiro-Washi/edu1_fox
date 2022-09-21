@@ -1,0 +1,71 @@
+[0.035s] Invoking command in '/home/hiroto/ros2_ws/src/education2/build/door2_pubsub': CMAKE_PREFIX_PATH=/home/hiroto/ros2_ws/install/turtlesim:/home/hiroto/ros2_ws/install/test_msg:/home/hiroto/ros2_ws/install/pubsub_msg:/home/hiroto/ros2_ws/install/pubsub:/home/hiroto/ros2_ws/install/door2_pubsub:/home/hiroto/ros2_ws/install/py_door2:/home/hiroto/ros2_ws/install/door_open2:/opt/ros/foxy:/home/hiroto/@home_ws/devel:/opt/ros/noetic PS1=\e[1;32m\]\u@\h\e[1;33m\]<foxy>\e[m\]:\e[1;34m\]\w\e[m\]$ /usr/local/bin/cmake /home/hiroto/ros2_ws/src/education2/door2_pubsub -DCMAKE_INSTALL_PREFIX=/home/hiroto/ros2_ws/src/education2/install/door2_pubsub
+[2.052s] -- The C compiler identification is GNU 9.4.0
+[2.052s] -- The CXX compiler identification is GNU 9.4.0
+[2.052s] -- Check for working C compiler: /usr/bin/cc
+[2.052s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.052s] -- Detecting C compiler ABI info
+[2.052s] -- Detecting C compiler ABI info - done
+[2.052s] -- Detecting C compile features
+[2.053s] -- Detecting C compile features - done
+[2.053s] -- Check for working CXX compiler: /usr/bin/c++
+[2.053s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.054s] -- Detecting CXX compiler ABI info
+[2.054s] -- Detecting CXX compiler ABI info - done
+[2.055s] -- Detecting CXX compile features
+[2.462s] -- Detecting CXX compile features - done
+[2.469s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.536s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.536s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.023s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[3.213s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.253s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.828s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.913s] -- Found FastRTPS: /opt/ros/foxy/include  
+[4.263s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.561s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[4.569s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.575s] -- Looking for pthread.h
+[4.673s] -- Looking for pthread.h - found
+[4.674s] -- Looking for pthread_create
+[4.777s] -- Looking for pthread_create - not found
+[4.777s] -- Looking for pthread_create in pthreads
+[4.880s] -- Looking for pthread_create in pthreads - not found
+[4.880s] -- Looking for pthread_create in pthread
+[4.988s] -- Looking for pthread_create in pthread - found
+[4.993s] -- Found Threads: TRUE  
+[5.962s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[8.349s] -- Added test 'copyright' to check source files copyright and LICENSE
+[8.354s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.354s] -- Configured cppcheck include dirs: 
+[8.354s] -- Configured cppcheck exclude dirs and/or files: 
+[8.358s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[8.358s] -- Configured cpplint exclude dirs and/or files: 
+[8.362s] -- Added test 'lint_cmake' to check CMake code style
+[8.366s] -- Added test 'uncrustify' to check C / C++ code style
+[8.367s] -- Configured uncrustify additional arguments: 
+[8.370s] -- Added test 'xmllint' to check XML markup files
+[8.380s] -- Configuring done
+[8.388s] -- Generating done
+[8.395s] -- Build files have been written to: /home/hiroto/ros2_ws/src/education2/build/door2_pubsub
+[8.411s] Invoked command in '/home/hiroto/ros2_ws/src/education2/build/door2_pubsub' returned '0': CMAKE_PREFIX_PATH=/home/hiroto/ros2_ws/install/turtlesim:/home/hiroto/ros2_ws/install/test_msg:/home/hiroto/ros2_ws/install/pubsub_msg:/home/hiroto/ros2_ws/install/pubsub:/home/hiroto/ros2_ws/install/door2_pubsub:/home/hiroto/ros2_ws/install/py_door2:/home/hiroto/ros2_ws/install/door_open2:/opt/ros/foxy:/home/hiroto/@home_ws/devel:/opt/ros/noetic PS1=\e[1;32m\]\u@\h\e[1;33m\]<foxy>\e[m\]:\e[1;34m\]\w\e[m\]$ /usr/local/bin/cmake /home/hiroto/ros2_ws/src/education2/door2_pubsub -DCMAKE_INSTALL_PREFIX=/home/hiroto/ros2_ws/src/education2/install/door2_pubsub
+[8.412s] Invoking command in '/home/hiroto/ros2_ws/src/education2/build/door2_pubsub': CMAKE_PREFIX_PATH=/home/hiroto/ros2_ws/install/turtlesim:/home/hiroto/ros2_ws/install/test_msg:/home/hiroto/ros2_ws/install/pubsub_msg:/home/hiroto/ros2_ws/install/pubsub:/home/hiroto/ros2_ws/install/door2_pubsub:/home/hiroto/ros2_ws/install/py_door2:/home/hiroto/ros2_ws/install/door_open2:/opt/ros/foxy:/home/hiroto/@home_ws/devel:/opt/ros/noetic PS1=\e[1;32m\]\u@\h\e[1;33m\]<foxy>\e[m\]:\e[1;34m\]\w\e[m\]$ /usr/local/bin/cmake --build /home/hiroto/ros2_ws/src/education2/build/door2_pubsub -- -j8 -l8
+[8.458s] Invoked command in '/home/hiroto/ros2_ws/src/education2/build/door2_pubsub' returned '0': CMAKE_PREFIX_PATH=/home/hiroto/ros2_ws/install/turtlesim:/home/hiroto/ros2_ws/install/test_msg:/home/hiroto/ros2_ws/install/pubsub_msg:/home/hiroto/ros2_ws/install/pubsub:/home/hiroto/ros2_ws/install/door2_pubsub:/home/hiroto/ros2_ws/install/py_door2:/home/hiroto/ros2_ws/install/door_open2:/opt/ros/foxy:/home/hiroto/@home_ws/devel:/opt/ros/noetic PS1=\e[1;32m\]\u@\h\e[1;33m\]<foxy>\e[m\]:\e[1;34m\]\w\e[m\]$ /usr/local/bin/cmake --build /home/hiroto/ros2_ws/src/education2/build/door2_pubsub -- -j8 -l8
+[8.498s] Invoking command in '/home/hiroto/ros2_ws/src/education2/build/door2_pubsub': CMAKE_PREFIX_PATH=/home/hiroto/ros2_ws/install/turtlesim:/home/hiroto/ros2_ws/install/test_msg:/home/hiroto/ros2_ws/install/pubsub_msg:/home/hiroto/ros2_ws/install/pubsub:/home/hiroto/ros2_ws/install/door2_pubsub:/home/hiroto/ros2_ws/install/py_door2:/home/hiroto/ros2_ws/install/door_open2:/opt/ros/foxy:/home/hiroto/@home_ws/devel:/opt/ros/noetic PS1=\e[1;32m\]\u@\h\e[1;33m\]<foxy>\e[m\]:\e[1;34m\]\w\e[m\]$ /usr/local/bin/cmake --build /home/hiroto/ros2_ws/src/education2/build/door2_pubsub --target install -- -j8 -l8
+[8.541s] [36mInstall the project...[0m
+[8.548s] -- Install configuration: ""
+[8.548s] -- Installing: /home/hiroto/ros2_ws/src/education2/install/door2_pubsub/share/ament_index/resource_index/package_run_dependencies/door2_pubsub
+[8.549s] -- Installing: /home/hiroto/ros2_ws/src/education2/install/door2_pubsub/share/ament_index/resource_index/parent_prefix_path/door2_pubsub
+[8.549s] -- Installing: /home/hiroto/ros2_ws/src/education2/install/door2_pubsub/share/door2_pubsub/environment/ament_prefix_path.sh
+[8.549s] -- Installing: /home/hiroto/ros2_ws/src/education2/install/door2_pubsub/share/door2_pubsub/environment/ament_prefix_path.dsv
+[8.550s] -- Installing: /home/hiroto/ros2_ws/src/education2/install/door2_pubsub/share/door2_pubsub/environment/path.sh
+[8.550s] -- Installing: /home/hiroto/ros2_ws/src/education2/install/door2_pubsub/share/door2_pubsub/environment/path.dsv
+[8.550s] -- Installing: /home/hiroto/ros2_ws/src/education2/install/door2_pubsub/share/door2_pubsub/local_setup.bash
+[8.550s] -- Installing: /home/hiroto/ros2_ws/src/education2/install/door2_pubsub/share/door2_pubsub/local_setup.sh
+[8.551s] -- Installing: /home/hiroto/ros2_ws/src/education2/install/door2_pubsub/share/door2_pubsub/local_setup.zsh
+[8.551s] -- Installing: /home/hiroto/ros2_ws/src/education2/install/door2_pubsub/share/door2_pubsub/local_setup.dsv
+[8.551s] -- Installing: /home/hiroto/ros2_ws/src/education2/install/door2_pubsub/share/door2_pubsub/package.dsv
+[8.552s] -- Installing: /home/hiroto/ros2_ws/src/education2/install/door2_pubsub/share/ament_index/resource_index/packages/door2_pubsub
+[8.552s] -- Installing: /home/hiroto/ros2_ws/src/education2/install/door2_pubsub/share/door2_pubsub/cmake/door2_pubsubConfig.cmake
+[8.552s] -- Installing: /home/hiroto/ros2_ws/src/education2/install/door2_pubsub/share/door2_pubsub/cmake/door2_pubsubConfig-version.cmake
+[8.559s] -- Installing: /home/hiroto/ros2_ws/src/education2/install/door2_pubsub/share/door2_pubsub/package.xml
+[8.560s] Invoked command in '/home/hiroto/ros2_ws/src/education2/build/door2_pubsub' returned '0': CMAKE_PREFIX_PATH=/home/hiroto/ros2_ws/install/turtlesim:/home/hiroto/ros2_ws/install/test_msg:/home/hiroto/ros2_ws/install/pubsub_msg:/home/hiroto/ros2_ws/install/pubsub:/home/hiroto/ros2_ws/install/door2_pubsub:/home/hiroto/ros2_ws/install/py_door2:/home/hiroto/ros2_ws/install/door_open2:/opt/ros/foxy:/home/hiroto/@home_ws/devel:/opt/ros/noetic PS1=\e[1;32m\]\u@\h\e[1;33m\]<foxy>\e[m\]:\e[1;34m\]\w\e[m\]$ /usr/local/bin/cmake --build /home/hiroto/ros2_ws/src/education2/build/door2_pubsub --target install -- -j8 -l8

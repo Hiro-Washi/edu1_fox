@@ -1,0 +1,41 @@
+[4.507s] Invoking command in '/home/hiroto/ros2_ws/src/education2/door_open2': PS1=\e[1;32m\]\u@\h\e[1;33m\]<foxy>\e[m\]:\e[1;34m\]\w\e[m\]$ PYTHONPATH=/home/hiroto/ros2_ws/src/education2/install/door_open2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/door_open2 build --build-base /home/hiroto/ros2_ws/src/education2/build/door_open2/build install --prefix /home/hiroto/ros2_ws/src/education2/install/door_open2 --record /home/hiroto/ros2_ws/src/education2/build/door_open2/install.log --single-version-externally-managed
+[5.023s] /home/hiroto/.local/lib/python3.8/site-packages/setuptools/dist.py:772: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[5.023s]   warnings.warn(
+[5.024s] /home/hiroto/.local/lib/python3.8/site-packages/setuptools/dist.py:772: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[5.025s]   warnings.warn(
+[6.073s] running egg_info
+[6.073s] creating ../build/door_open2/door_open2.egg-info
+[6.192s] writing ../build/door_open2/door_open2.egg-info/PKG-INFO
+[6.287s] writing dependency_links to ../build/door_open2/door_open2.egg-info/dependency_links.txt
+[6.742s] writing requirements to ../build/door_open2/door_open2.egg-info/requires.txt
+[6.831s] writing top-level names to ../build/door_open2/door_open2.egg-info/top_level.txt
+[6.838s] writing manifest file '../build/door_open2/door_open2.egg-info/SOURCES.txt'
+[6.993s] reading manifest file '../build/door_open2/door_open2.egg-info/SOURCES.txt'
+[6.995s] writing manifest file '../build/door_open2/door_open2.egg-info/SOURCES.txt'
+[6.997s] /home/hiroto/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.997s]   warnings.warn(
+[6.997s] running build
+[6.998s] running build_py
+[6.998s] creating /home/hiroto/ros2_ws/src/education2/build/door_open2/build
+[6.998s] creating /home/hiroto/ros2_ws/src/education2/build/door_open2/build/lib
+[6.998s] creating /home/hiroto/ros2_ws/src/education2/build/door_open2/build/lib/door_open2
+[6.998s] copying door_open2/__init__.py -> /home/hiroto/ros2_ws/src/education2/build/door_open2/build/lib/door_open2
+[6.998s] copying door_open2/door_open2.py -> /home/hiroto/ros2_ws/src/education2/build/door_open2/build/lib/door_open2
+[6.998s] running install
+[7.012s] running install_lib
+[7.147s] creating /home/hiroto/ros2_ws/src/education2/install/door_open2/lib/python3.8/site-packages/door_open2
+[7.148s] copying /home/hiroto/ros2_ws/src/education2/build/door_open2/build/lib/door_open2/__init__.py -> /home/hiroto/ros2_ws/src/education2/install/door_open2/lib/python3.8/site-packages/door_open2
+[7.148s] copying /home/hiroto/ros2_ws/src/education2/build/door_open2/build/lib/door_open2/door_open2.py -> /home/hiroto/ros2_ws/src/education2/install/door_open2/lib/python3.8/site-packages/door_open2
+[7.149s] byte-compiling /home/hiroto/ros2_ws/src/education2/install/door_open2/lib/python3.8/site-packages/door_open2/__init__.py to __init__.cpython-38.pyc
+[7.150s] byte-compiling /home/hiroto/ros2_ws/src/education2/install/door_open2/lib/python3.8/site-packages/door_open2/door_open2.py to door_open2.cpython-38.pyc
+[7.150s] running install_data
+[7.184s] creating /home/hiroto/ros2_ws/src/education2/install/door_open2/share/ament_index
+[7.184s] creating /home/hiroto/ros2_ws/src/education2/install/door_open2/share/ament_index/resource_index
+[7.185s] creating /home/hiroto/ros2_ws/src/education2/install/door_open2/share/ament_index/resource_index/packages
+[7.185s] copying resource/door_open2 -> /home/hiroto/ros2_ws/src/education2/install/door_open2/share/ament_index/resource_index/packages
+[7.185s] copying package.xml -> /home/hiroto/ros2_ws/src/education2/install/door_open2/share/door_open2
+[7.185s] running install_egg_info
+[7.343s] Copying ../build/door_open2/door_open2.egg-info to /home/hiroto/ros2_ws/src/education2/install/door_open2/lib/python3.8/site-packages/door_open2-0.0.0-py3.8.egg-info
+[7.344s] running install_scripts
+[7.664s] writing list of installed files to '/home/hiroto/ros2_ws/src/education2/build/door_open2/install.log'
+[7.760s] Invoked command in '/home/hiroto/ros2_ws/src/education2/door_open2' returned '0': PS1=\e[1;32m\]\u@\h\e[1;33m\]<foxy>\e[m\]:\e[1;34m\]\w\e[m\]$ PYTHONPATH=/home/hiroto/ros2_ws/src/education2/install/door_open2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/door_open2 build --build-base /home/hiroto/ros2_ws/src/education2/build/door_open2/build install --prefix /home/hiroto/ros2_ws/src/education2/install/door_open2 --record /home/hiroto/ros2_ws/src/education2/build/door_open2/install.log --single-version-externally-managed

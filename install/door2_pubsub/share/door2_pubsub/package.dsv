@@ -1,0 +1,8 @@
+source;share/door2_pubsub/hook/cmake_prefix_path.ps1
+source;share/door2_pubsub/hook/cmake_prefix_path.dsv
+source;share/door2_pubsub/hook/cmake_prefix_path.sh
+source;share/door2_pubsub/local_setup.bash
+source;share/door2_pubsub/local_setup.dsv
+source;share/door2_pubsub/local_setup.ps1
+source;share/door2_pubsub/local_setup.sh
+source;share/door2_pubsub/local_setup.zsh
